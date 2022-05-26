@@ -1,0 +1,6 @@
+-
+        name: test Connectivity to the traget server
+        hosts: all
+        tasks:
+          - name: Ping test
+            ping:
